@@ -1079,3 +1079,39 @@ section {
         right: 20px;
     }
 }
+
+
+
+.image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+.hero-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.hero-logo img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00ffff;
+    box-shadow: 0 0 20px #00ffff;
+}
